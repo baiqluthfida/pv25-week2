@@ -39,6 +39,9 @@ class RegistrationForm(QWidget):
                 font-weight: bold;
                 font-family: Arial;
             }
+            QPushButton:pressed {
+            background-color: #CCCCCC; 
+            }
         """
 
         btn_home = QPushButton("Home")
